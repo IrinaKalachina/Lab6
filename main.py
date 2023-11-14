@@ -1,3 +1,45 @@
+class Company:
+    """Описание фирмы"""
+    def __init__(self):  # Присвоение атрибутам значений
+        pass
+
+    @property
+    def vehicles(self):
+        return self
+
+    @property
+    def drivers(self):
+        return self
+
+    def add_vehicle(self, vehicle):  # Добавление транспорта в класс
+        pass
+
+    def add_driver(self, driver):  # Добавление водителя в класс
+        pass
+
+    def __str__(self):  # Метод перевода объекта в строку
+        pass
+
+
+class Vehicle:  # Класс транспорт
+    def __init__(self):
+        pass
+
+    def tip(self):
+        return self
+
+    def __str__(self):
+        pass
+
+
+class Driver:  # Класс водитель
+    def __init__(self):
+        pass
+
+    def __str__(self):
+        pass
+
+
 def main():
     while True:
         print("\nМеню:")
